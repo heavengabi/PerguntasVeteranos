@@ -2,7 +2,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: 'Segoe UI', sans-serif; /* Fonte moderna */
-    background: linear-gradient(to right, #e0f7fa, #e1bee7); /* Gradiente azul-claro para roxo */
+    background: linear-gradient(to right, #00BFFF , #1E90FF , #4169E1, #0000CD , #000080   ); /* Gradiente azul-claro para roxo */
     text-align: center; /* Centraliza tudo */
     padding: 30px;
     margin: 0;
@@ -10,7 +10,7 @@ body {
   
   /* Título principal */
   h1 {
-    color: #333;
+    color: #ffffff;
     margin-bottom: 40px;
     font-size: 2em;
   }
@@ -26,7 +26,7 @@ body {
   /* Estilo base para cada card */
   .card {
     background-color: white;
-    border-radius: 15px;         /* Bordas arredondadas */
+    border-radius: 10px;         /* Bordas arredondadas */
     width: 250px;
     padding: 25px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -57,19 +57,20 @@ body {
   
   /* Estilização dos botões */
   button {
-    background: linear-gradient(to right, #42a5f5, #7e57c2); /* Gradiente azul-roxo */
-    color: white;
+    background: linear-gradient(90deg, #B3E5FC, #0288D1);
+    color: rgb(0, 0, 0);
     border: none;
-    padding: 12px 20px;
+    padding: 15px 40px;
     border-radius: 8px;
-    font-size: 1em;
+    font-weight: bold;
     cursor: pointer;
-   
+
   }
   
   /* Efeito ao passar o mouse no botão */
   button:hover {
-    background: linear-gradient(to right, #1e88e5, #6a1b9a);
+   background: linear-gradient(90deg, #00BFFF, #0000CD);
+
   }
   
   /* Estilo das áreas de pergunta e resposta */
@@ -83,5 +84,13 @@ body {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+  }
+  #pergunta
+   {
+    background-color: #9fc8ed;
+  }
+  #resposta 
+  {
+    background-color: #9fc8ed;
   }
   
